@@ -1,17 +1,17 @@
 ﻿namespace Singleton
 {
-    internal class SingletonThreadSafeUsingStaticContructor
+    internal class SingletonUsingStaticContructor
     {
-        private static readonly SingletonThreadSafeUsingStaticContructor instance
-            = new SingletonThreadSafeUsingStaticContructor();
+        private static readonly SingletonUsingStaticContructor instance
+            = new SingletonUsingStaticContructor();
 
         // Explicit static constructor to tell C# compiler
         // not to mark type as beforefieldinit
-        static SingletonThreadSafeUsingStaticContructor() { }
+        static SingletonUsingStaticContructor() { }
 
-        private SingletonThreadSafeUsingStaticContructor() { }
+        private SingletonUsingStaticContructor() { }
 
-        public static SingletonThreadSafeUsingStaticContructor Instance { get { return instance; } }
+        public static SingletonUsingStaticContructor Instance { get { return instance; } }
     }
 }
 

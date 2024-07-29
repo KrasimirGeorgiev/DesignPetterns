@@ -1,11 +1,11 @@
 ﻿// This is a better approach to the first implementation - SingletonThreadSafeUsingStaticContructor
 namespace Singleton
 {
-    internal class SingletonThreadSafeUsingStaticContructorBetter
+    internal class SingletonUsingStaticContructorBetter
     {
-        private SingletonThreadSafeUsingStaticContructorBetter() { }
+        private SingletonUsingStaticContructorBetter() { }
 
-        public static SingletonThreadSafeUsingStaticContructorBetter Instance { get { return Nested.instance; } }
+        public static SingletonUsingStaticContructorBetter Instance { get { return Nested.instance; } }
 
         private class Nested
         {
@@ -13,8 +13,8 @@ namespace Singleton
             // not to mark type as beforefieldinit
             static Nested() { }
 
-            internal static readonly SingletonThreadSafeUsingStaticContructorBetter instance 
-                = new SingletonThreadSafeUsingStaticContructorBetter();
+            internal static readonly SingletonUsingStaticContructorBetter instance 
+                = new SingletonUsingStaticContructorBetter();
         }
     }
 }
