@@ -12,3 +12,7 @@ var singletonThreadSafeUsingStaticConstructorFullSolution = SingletonUsingStatic
 
 // Implemention using Lazy<T>
 var singletonThreadSafeUsingLazyT = SingletonUsingLazyT.Instance;
+
+
+// Singleton is a creational design pattern.
+// It ensures that there is only one instance of a class and provides a global point of access to it.
