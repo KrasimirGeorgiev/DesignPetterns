@@ -6,7 +6,7 @@
         {
             return "Titanium";
         }
-        public decimal GetCrediCardLimit()
+        public decimal GetCreditCardLimit()
         {
             return 35000;
         }

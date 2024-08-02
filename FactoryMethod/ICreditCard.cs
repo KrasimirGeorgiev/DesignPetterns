@@ -3,7 +3,7 @@
     public interface ICreditCard
     {
         string GetCardType();
-        decimal GetCrediCardLimit();
+        decimal GetCreditCardLimit();
         decimal GetAnnualCharge();
     }
 }

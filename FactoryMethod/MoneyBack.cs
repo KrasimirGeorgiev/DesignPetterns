@@ -7,7 +7,7 @@
             return "MoneyBack";
         }
 
-        public decimal GetCrediCardLimit()
+        public decimal GetCreditCardLimit()
         {
             return 15000;
         }

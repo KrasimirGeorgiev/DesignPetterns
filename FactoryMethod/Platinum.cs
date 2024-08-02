@@ -7,7 +7,7 @@
             return "Platimun";
         }
 
-        public decimal GetCrediCardLimit()
+        public decimal GetCreditCardLimit()
         {
             return 25000;
         }
