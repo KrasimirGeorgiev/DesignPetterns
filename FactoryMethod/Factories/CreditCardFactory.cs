@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod.Factories
+﻿using FactoryMethod.Products.Interfaces;
+
+namespace FactoryMethod.Factories
 {
     public abstract class CreditCardFactory
     {

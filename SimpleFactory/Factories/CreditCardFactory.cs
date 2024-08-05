@@ -1,6 +1,7 @@
-﻿using FactoryMethod;
+﻿using SimpleFactory.Products;
+using SimpleFactory.Products.Interfaces;
 
-namespace SimpleFactory
+namespace SimpleFactory.Factories
 {
     internal class CreditCardFactory
     {

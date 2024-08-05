@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod
+﻿namespace SimpleFactory.Products.Interfaces
 {
     public interface ICreditCard
     {

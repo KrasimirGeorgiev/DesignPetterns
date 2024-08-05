@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod
+﻿using FactoryMethod.Products.Interfaces;
+
+namespace FactoryMethod.Products
 {
     internal class MoneyBack : ICreditCard
     {

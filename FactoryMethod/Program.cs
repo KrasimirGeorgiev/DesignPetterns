@@ -1,5 +1,5 @@
-﻿using FactoryMethod;
-using FactoryMethod.Factories;
+﻿using FactoryMethod.Factories;
+using FactoryMethod.Products.Interfaces;
 
 // Method factory is a creational design pattern
 // Defines an interface for creating a single object, but let subclasses decide which class to instantiate. 

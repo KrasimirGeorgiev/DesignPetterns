@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod
+﻿using SimpleFactory.Products.Interfaces;
+
+namespace SimpleFactory.Products
 {
     internal class Titanium : ICreditCard
     {

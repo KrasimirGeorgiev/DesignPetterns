@@ -13,4 +13,8 @@
     <None Remove="NoFactoryExample\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,6 @@
-﻿using FactoryMethod;
-using SimpleFactory;
+﻿using SimpleFactory.Factories;
+using SimpleFactory.Products;
+using SimpleFactory.Products.Interfaces;
 
 // Simple Factory Design pattern
 //According to Gang of Four (GoF), a factory is an object used to create other objects. In technical terms, a factory is a class with a method.
