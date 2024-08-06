@@ -1,5 +1,5 @@
 ﻿// Abstract factory is a creational design pattern
-// It provides an interface for creating families of related of dependant objects without specifying their concrete classes.
+// It provides an interface for creating families of related or dependant objects without specifying their concrete classes.
 
 using AbstractFactory.Factories;
 
