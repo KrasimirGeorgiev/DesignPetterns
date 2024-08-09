@@ -1,5 +1,7 @@
 ﻿namespace Builder
 {
+    // The following concrete Builder implements the ReportBuilder abstract class
+    // and provides specific implementation of the steps for creating a PdfReport
     public class PdfReport : ReportBuilder
     {
         public override void SetReportHeader()

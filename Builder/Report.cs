@@ -17,3 +17,7 @@
         }
     }
 }
+
+// It makes sense to use the Builder design pattern when your products are quite complex
+// and require an extensive configuration.
+// Using the following Report Product class, we can configure different types of Product

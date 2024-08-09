@@ -1,5 +1,7 @@
 ﻿namespace Builder
 {
+    // The following concrete Builder implements the ReportBuilder abstract class
+    // and provides specific implementation of the steps for creating a Excel Report
     public class ExcelReport : ReportBuilder
     {
         public override void SetReportHeader()

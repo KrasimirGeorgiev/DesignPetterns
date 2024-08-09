@@ -5,6 +5,11 @@
 //  construction should be so generic that the same construction process can be used to create different representations 
 //  of the same complex object.
 
+// Constructing a report
+// Step 1: Create a Builder object
+// Step 2: Create a Director and pass to it the Builder object through the MakeReport method
+// Step 3: Display the report by calling the DisplayReport method of the Product
+
 using Builder;
 
 PdfReport pdfReport = new PdfReport();
