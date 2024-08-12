@@ -22,3 +22,14 @@ emp2.ContactInfo.Address = "New York";
 Console.WriteLine($"Employee 1: {emp1.Name} lives in {emp1.ContactInfo.Address}");
 Console.WriteLine($"Employee 2: {emp2.Name} lives in {emp2.ContactInfo.Address}");
 
+// Prototype pattern is all about the cloning. It's important to know the difference between deep and shallow copy
+// Shallow copy will only copy the value types of a class and copy the address of the reference types
+// Deep copy both the value and the reference types.
+
+// There are different ways to perform a deep copy:
+// One of them we showed in this example using memberwise clone for each class we want to clone and for all the classes they contain ( and so on)
+//  The Prototype pattern puts the responsibility of copying on the object to be copied. This is a great example of that. 
+// There are also other methods to perform a deep clone, but we should be mindfull of the above and try to keep the responsibility
+//  of copying on the object. Other examples of ways to perform deep copy are using the IClonable interface, JSON or XML Serialization,
+//  Data contract Serialization - Using the [DataContract] [DataMember] attributes, Deep copy with reflection, Deep copy with Expression Trees,
+//  Deep copy with third party libraries like - AutoMapper, FastDeepCloner, DeepCopy, JSON.NET
