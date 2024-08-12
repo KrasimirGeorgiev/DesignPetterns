@@ -8,19 +8,19 @@
 using Prototype;
 
 // This is one way to make a deep copy - every reference variable type should have the method GetClone and use MemberwiseClone to copy the the values and pass them up the chain
-Employee emp1 = new Employee
+Employee emp1 = new PermanentEmployee
 {
     Name = "Kristopher",
     Department = "IT",
-    ContactInfo = new ContactInfo() { Address = "BBSR"}
+    ContactInfo = new ContactInfo() { Address = "BBSR"},
+    Salary = 5000m
 };
 
 var emp2 = emp1.GetClone();
 emp2.Name = "Jim";
 emp2.ContactInfo.Address = "New York";
-
-Console.WriteLine($"Employee 1: {emp1.Name} lives in {emp1.ContactInfo.Address}");
-Console.WriteLine($"Employee 2: {emp2.Name} lives in {emp2.ContactInfo.Address}");
+emp1.GetDetails();
+emp2.GetDetails();
 
 // Prototype pattern is all about the cloning. It's important to know the difference between deep and shallow copy
 // Shallow copy will only copy the value types of a class and copy the address of the reference types
